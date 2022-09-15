@@ -1,16 +1,16 @@
 <html>
     <head>
         <body>
-            <form action="">
-                <div>
-                <label for="text">correo electronico</label>
-                <input type="text" placeholder="Ingrese correo electronico">
-                </div>
-                <div>
-                <label for="texto">Contrasena</label>
-                <input type="text" placeholder="ingrese contraseña">
-                </div>
-                <button>Cargar</button>
+            <form onsubmit="console.log()" target="_blank" method="post">
+            <div>
+                <label for="correo">Correo Electronico</label>
+                <input type="email" name="correo" id="correo" placeholder="ingrese su correo">
+            </div>
+            <div>
+                <label for="contra">Contrasena</label>
+                <input type="password" name="contra" id="contra"placeholder="ingrese se contrasena">
+            </div>
+            <button>Cargar</button>
             </form>
         </body>
     </head>
