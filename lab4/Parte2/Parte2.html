@@ -1,7 +1,10 @@
+<!DOCTYPE html>
 <html>
     <head>
+        <title>LABORATORIO 4 PARTE 2</title>
+    </head>
         <body>
-            <form onsubmit="console.log()" target="_blank" method="post">
+            <form method="post">
             <div>
                 <label for="correo">Correo Electronico</label>
                 <input type="email" name="correo" id="correo" placeholder="ingrese su correo">
@@ -10,8 +13,18 @@
                 <label for="contra">Contrasena</label>
                 <input type="password" name="contra" id="contra"placeholder="ingrese se contrasena">
             </div>
-            <button>Cargar</button>
+            <div>
+                <input type="button" name="btn1" value="Enviar" onclick="obtenerdatos()">
+            </div>
             </form>
+            <script type="text/javascript">
+                function obtenerdatos()
+                {
+                    let correo=document.getElementById("correo").value;
+                    let contra=document.getElementById("contra").value;
+                    console.log(correo);
+                    console.log(contra);
+                }
+            </script>
         </body>
-    </head>
 </html>
