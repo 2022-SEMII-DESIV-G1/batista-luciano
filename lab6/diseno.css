@@ -1,0 +1,28 @@
+div{
+    margin-left: 0%;
+    margin-right: 59%;
+    padding: 10px;
+    border: 2px solid black;
+}
+span{
+    color:  #fb6542;
+    font-family: Arial;
+}
+h1{
+    color: #375e97;
+    font-family: Georgia;
+}
+p{
+    font-family: Arial;
+    color: black;
+}
+hr{
+    color: #375e97;
+}
+sub{
+    color: #999999;
+}
+a{
+    color:  #fb6542;
+    font-family: Arial; 
+}
