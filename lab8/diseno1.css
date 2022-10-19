@@ -2,20 +2,35 @@
 #divprin{
     margin-left: 25%;
     margin-right: 25%;
+    height: 50%;;
     padding: 10px;
-    background-color: #023361;  
-
+    border-radius: 10px;
+    background-color: #023361;
 }
 h2{
     font-family: Arial;
     font-size: 10px;
-    color: black;
+    color:white;
 }
 #limpiar{
-    background-color:red;
+    color: white;
+    background-color: #ff0000;
+    border-radius: 5px;
+    padding: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    border: #ff0000;
+    cursor: pointer;  
 }
 #calcular{
-    background-color:blue;
+    color: white;
+    background-color: #0085ff;
+    border-radius: 5px;
+    padding: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    border: #0085ff;
+    cursor: pointer;
 }
 #divuno{
     display: flex;
