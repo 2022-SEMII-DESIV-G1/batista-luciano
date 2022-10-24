@@ -2,7 +2,7 @@
 #divprin{
     margin-left: 25%;
     margin-right: 25%;
-    height: 50%;;
+    height: 40%;;
     padding: 10px;
     border-radius: 10px;
     background-color: #023361;
@@ -50,17 +50,10 @@ h1{
     font-size: 30px;
     text-align: center;
 }
-p{
-    font-family: Arial;
-    color: black;
-}
-hr{
-    color: #375e97;
-}
-sub{
-    color: #999999;
-}
-a{
-    color:  #fb6542;
-    font-family: Arial; 
+#respuesta{
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    height: 20%;
 }
